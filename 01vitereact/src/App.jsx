@@ -9,13 +9,14 @@ function App() {
     if(count>0)setCount(count-1)
   }
   return (
-    <>
+    <div className=" flex justify-center  center">
+
     <h1>Counter:{count}</h1>
-    <button onClick={addCount}>Increase</button><br/>
+    <button onClick={addCount} className="bg-black text-white p-1">Increase</button><br/>
     <button onClick={minusCount}>Decrease</button>
 
 
-    </>
+    </div >
    
   )
 }
