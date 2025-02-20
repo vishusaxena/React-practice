@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+}
+.input-box{
+  width:500px;
+  padding: 4px;
+}
+
+.container{
+  width: 500px;
+  padding: 4px;
+  border: 1px solid black;
+  text-align: left;
+  max-height: 400px;
+  overflow-y: scroll;
+  margin: auto;
+}
+.results{
+  display: block;
+  padding: 5px;
+
+}
+.results:hover{
+  cursor: pointer;
+  background-color: beige;
+}

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function App() {
-  const [todos, setTodos] = useState(["xyz", "abc"]);
+  const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
 
   const addTodo = () => {
