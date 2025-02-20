@@ -1,0 +1,18 @@
+body{
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  
+  width:500px;
+  
+  margin: auto;
+  text-align: left;
+  padding: 5px;
+}
+.icon{
+  width: 20px;
+  margin-left: 2px;
+}
