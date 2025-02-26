@@ -1,0 +1,33 @@
+.App{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: lavender;
+    width: 500px;
+    margin: auto;
+    height:300px;
+    margin-top: 20vh;
+   text-align: left;
+display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.btn{
+    background-color: rgb(33, 182, 33);
+    color: white;
+    padding: 7px  20px;
+    border-radius: 4px;
+   
+}
+
+.container .btn{
+    margin-top: auto;
+}
+.container h1{
+    text-align: center;
+    
+}
