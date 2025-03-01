@@ -1,0 +1,69 @@
+/* General Styles */
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Accordion Styles */
+.accordion {
+  width: 50vw;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Heading Section */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Body Container with Smooth Animation */
+.body-container {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  padding: 0 20px;
+}
+
+/* When Open */
+.body-container.open {
+  max-height: 150px;
+  opacity: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+  background: #ffffff;
+}
+
+/* Scrollbar Customization */
+.body-container p {
+  margin: 0;
+  overflow-y: auto;
+  max-height: 100px;
+}

@@ -4,7 +4,9 @@
 }
 
 .container{
-    background-color: lavender;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.037);
+    border: 1px solid black;
     width: 500px;
     margin: auto;
     height:300px;
